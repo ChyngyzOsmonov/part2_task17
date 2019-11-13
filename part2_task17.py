@@ -13,22 +13,29 @@ germany='google_germany.txt'
 paris='google_paris.txt'
 if choose == san_francisco:
     with open('google_san_francisco.txt', 'r+') as f: 
-        f.write('Hello') 
+        f.write('Hello')
+        f.close 
 elif choose == moscow:
     with open('google_moscow.txt', 'r+') as f: 
         f.write('Hello')
+        f.close 
 elif choose == kg:
     with open('google_kyrgyzstan.txt', 'r+') as f: 
-        f.write('Hello')  
+        f.write('Hello')
+        f.close 
 elif choose == kz:
     with open('google_kazakstan.txt', 'r+') as f: 
-        f.write('Hello') 
+        f.write('Hello')
+        f.close 
 elif choose == sweden:
     with open('google_sweden.txt', 'r+') as f: 
-        f.write('Hello') 
+        f.write('Hello')
+        f.close 
 elif choose == uar:
     with open('google_uar.txt', 'r+') as f: 
-        f.write('Hello') 
+        f.write('Hello')
+        f.close 
 elif choose == paris:
     with open('google_paris.txt', 'r+') as f: 
         f.write('Hello') 
+        f.close 
